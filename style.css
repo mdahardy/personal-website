@@ -66,9 +66,9 @@ a:hover {
     padding-right:5px;
 }
 
-.image-wrapper{
+#image-wrapper{
     width:80%;
-    max-width:300px;
+    max-width:350px;
     margin-left:auto;
     margin-right:auto;
     background:#a7a7a7;
