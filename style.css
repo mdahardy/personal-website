@@ -13,7 +13,7 @@ a:hover {
     background: rgb(15, 114, 196);
 }
 
-#content{
+.content{
     padding:20px;
     background:#eeeeee;
     width:60%;
@@ -29,14 +29,10 @@ a:hover {
 .flex-container{
     display:flex;
     flex-wrap:wrap;
-    margin-top:20px;
+    padding-top:15px;
 }
 
-.contact-text{
-    margin-left:10px;
-}
-
-.title{
+.section-title{
     font-size:20px;
     font-weight:bold;
     width:22%;
@@ -45,7 +41,7 @@ a:hover {
     padding-right:10px;
 }
 
-.right{
+.section-content{
     width:78%;
 }
 
@@ -60,12 +56,12 @@ a:hover {
     font-weight:bold;
 }
 
-.centering{
+.main-title-wrapper {
     margin-top:10px;
     text-align:center;
 }
 
-.dot{
+.dot-span{
     padding-left:5px;
     padding-right:5px;
 }
@@ -76,3 +72,54 @@ a:hover {
     margin-left:auto;
     margin-right:auto;
 }
+
+.mobile-only{
+    display:none;
+}
+
+@media (max-width:1150px){
+    .content{
+        width:85%;
+    }
+
+}
+
+@media (max-width:760px){
+    .content{
+        width:calc(100% - 10px);
+        box-shadow: none;
+        margin-bottom:10px;
+    }
+    .section-title{
+        width:100%;
+        padding-left:0;
+        padding-bottom:10px;
+    }
+    .section-content{
+        width:100%;
+    }
+    .flex-container{
+        padding-top:10px;
+    }
+    .first-dot{
+        display:none;
+    }
+
+    .mobile-only{
+        display:inline;
+        padding-bottom:5px;
+    }
+
+    .main-title{
+        padding-bottom:0px;
+    }
+}
+
+
+/* All touchscreens */
+@media (any-pointer: coarse) {
+    a:hover {
+        color: rgb(15, 114, 196);
+        background: none;
+    }
+  }
