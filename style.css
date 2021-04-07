@@ -13,7 +13,6 @@ a {
 
 a:hover {
     text-decoration:underline;
-
 }
 
 .content{
@@ -151,7 +150,6 @@ img {
 /* All touchscreens */
 @media (any-pointer: coarse) {
     a:hover {
-        color: rgb(15, 114, 196);
-        background: none;
+       text-decoration:none;
     }
   }
