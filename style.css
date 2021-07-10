@@ -71,11 +71,13 @@ a:hover {
 }
 
 #image-wrapper{
-    width:80%;
+    width:80vw;
     max-width:350px;
+    height: calc(80vw * .66747154191);
+    max-height: 233.6px;
     margin-left:auto;
     margin-right:auto;
-    background:#a7a7a7;
+    background:#cfcfcf;
 }
 
 img {
@@ -98,6 +100,10 @@ img {
 
 .first-flex{
     padding-top:0px;
+}
+
+#github-link{
+    text-align:right;
 }
 
 @media (max-width:1150px){
