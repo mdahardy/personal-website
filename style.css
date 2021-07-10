@@ -18,6 +18,7 @@ a:hover {
 
 .content{
     padding:20px;
+    padding-bottom:10px;
     /* background:#eeeeee; */
     width:60%;
     max-width:800px;
