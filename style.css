@@ -74,7 +74,8 @@ a:hover {
 #image-wrapper{
     width:80vw;
     max-width:350px;
-    height: calc(80vw * .66747154191);
+    /* Multiplier determined determined by image aspect ratio */
+    height: calc(80vw * .66747154191); 
     max-height: 233.6px;
     margin-left:auto;
     margin-right:auto;
